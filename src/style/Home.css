@@ -1,0 +1,221 @@
+.header-banner {
+  background-color: var(--darkBrown);
+  color: var(--lightOrange);
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 50px;
+  padding: 7px;
+  font-weight: 600;
+}
+
+.header-content {
+  border: 3px solid var(--lightBrown);
+  border-radius: 50px;
+  padding: 14px 9px;
+}
+
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.navigation-tabs {
+  background-color: #fafaf1;
+  padding: 10px 25px;
+  display: inline-flex;
+  gap: 15px;
+  border-radius: 30px 30px 0 0;
+}
+
+.tab {
+  font-weight: 600;
+  color: var(--darkBrown);
+  font-size: 20px;
+  padding: 5px;
+}
+
+.active {
+  border-bottom: 2px dotted var(--darkBrown);
+}
+
+.route-content {
+  background-color: #fafaf1;
+  width: 100%;
+  height: fit-content;
+  border-radius: 0 20px 20px 20px;
+  padding: 10px;
+}
+
+.home-screen {
+  height: fit-content;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.profile-banner {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #855944,
+    #a77a66 6px,
+    #855944 6px
+  );
+  color: #ffe5d6;
+  padding: 10px;
+}
+
+.profile-banner p {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.profile-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-inner img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 4px solid var(--lightOrange);
+  margin-right: 10px;
+}
+
+.profile-details {
+  padding: 10px;
+}
+
+.about-section {
+  color: var(--lightBrown);
+  border: 2px solid var(--lightBrown);
+  border-radius: 0 0 10px 10px;
+}
+
+.about-section h2 {
+  border-bottom: 2px solid var(--lightBrown);
+  color: var(--darkBrown);
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.about-inner {
+  display: flex;
+  text-align: center;
+}
+
+.about-text {
+  width: 50%;
+  border-right: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.about-text h3 {
+  font-size: 25px;
+  color: var(--darkLimegreen);
+  text-align: center;
+}
+
+.about-text p {
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text span {
+  background-color: var(--limegreen);
+  font-weight: 800;
+}
+
+.about-text a {
+  text-decoration: underline;
+  color: var(--darkLimegreen);
+}
+
+.about-boxes {
+  width: 50%;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.info-box {
+  border: 1px solid var(--darkLimegreen);
+  color: var(--darkLimegreen);
+  text-align: left;
+  margin-top: 10px;
+}
+
+.info-box h4 {
+  font-size: 20px;
+  border-bottom: 1px solid var(--darkLimegreen);
+  background-color: rgba(202, 223, 82, 0.3);
+  padding: 5px;
+}
+
+.info-box p {
+  font-weight: 500;
+  padding: 5px;
+}
+
+.main-content .edit-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--lightOrange);
+  border: 2px solid var(--lightBrown);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+.edit-screen {
+  border-radius: 20px;
+}
+
+.edit-content {
+  background-color: #fafaf1;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.inner {
+  padding: 10px;
+}
+
+.screen-2 {
+  color: var(--lightBrown);
+  border: 2px solid var(--lightBrown);
+  border-radius: 10px;
+  text-align: center;
+}
+.row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.edit-screen input {
+  padding: 7px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid var(--darkBrown);
+  width: 100%;
+  font-weight: 500;
+  color: var(--lightBrown);
+}
