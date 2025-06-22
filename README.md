@@ -1,12 +1,25 @@
-# React + Vite
+<h3 align="center">
+  🍪 Crumbly 🍪
+</h3>
+<p align="center">A cozy space made for little moments</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr/>
 
-Currently, two official plugins are available:
+### Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Crumbly is a cute and simple website where you can customize your profile and add up to 3 note cards to share your mood, ideas, or randomness. It's all about you — your look, your notes, your corner of the web. Built to be light, fun, and totally you.</p>
 
-## Expanding the ESLint configuration
+### Product Images
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p align="center">
+  <img src="./product-imgs/p1.png" alt="" width="90%" style="border-radius: 50px;" />
+</p>
+<p align="center">
+  <img src="./product-imgs/p2.png" alt="" width="90%" style="border-radius: 50px;" />
+</p>
+
+<p align="center">
+  <img src="./product-imgs/p3.png" alt="" width="90%" style="border-radius: 50px;" />
+</p>
+
+<hr/>
