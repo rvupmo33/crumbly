@@ -36,6 +36,10 @@
   color: var(--darkBrown);
   font-size: 20px;
   padding: 5px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
 }
 
 .active {
@@ -204,13 +208,25 @@
   border-radius: 10px;
   text-align: center;
 }
+
 .row {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
+
 .edit-screen input {
+  padding: 7px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid var(--darkBrown);
+  width: 100%;
+  font-weight: 500;
+  color: var(--lightBrown);
+}
+
+.edit-screen textarea {
   padding: 7px 10px;
   outline: none;
   border-radius: 5px;
